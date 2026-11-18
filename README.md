@@ -1,4 +1,4 @@
-# Master Project - Blockchain Transaction Orchestration System
+# Blockchain Transaction Orchestration System
 
 This project provides an 11-component infrastructure for chaos engineering evaluation of a centralized blockchain orchestrator. The orchestrator connects to three isolated Rust signer nodes via Python gRPC proxies to execute a 2-of-3 DKLs23 threshold signature protocol. It tracks transaction lifecycle in PostgreSQL database and submits them to a local Hardhat 3 blockchain node.
 
